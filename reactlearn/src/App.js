@@ -1,9 +1,12 @@
 import './App.css';
+import TaskItem from './components/TaskItem';
 
 function App() {
+
+
   return (
     <div className="App">
-      <p> This is the test</p>
+      <TaskItem title="Task 1" description="Testing" />
     </div>
   );
 }
